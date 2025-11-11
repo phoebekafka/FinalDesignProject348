@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "sim_foot")(type "KiCad")(uri "C:/Users/User/Documents/GitHub/EE_348_StudentFiles_FinalProj/348_footprints.pretty")(options "")(descr ""))
+)
