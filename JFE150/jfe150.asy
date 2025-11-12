@@ -1,0 +1,33 @@
+Version 4
+SymbolType CELL
+LINE Normal -32 -32 -32 32
+LINE Normal 16 32 16 64
+LINE Normal -20 32 -20 -32
+LINE Normal 16 -32 16 -64
+LINE Normal 16 -32 -20 -32
+LINE Normal 16 32 -20 32
+LINE Normal -64 0 -32 0
+RECTANGLE Normal 12 -68 20 -60 2
+RECTANGLE Normal -68 -4 -60 4 2
+RECTANGLE Normal 12 60 20 68 2
+WINDOW -1 32 0 Center 2
+WINDOW 123 0 0 Left 0
+SYMATTR Value2 jfe150
+SYMATTR Prefix X
+SYMATTR Description Mosfet
+SYMATTR SpiceModel jfe150.lib
+PIN 16 -64 BOTTOM 8
+PINATTR PinName D
+PINATTR SpiceOrder 1
+PIN -64 0 LEFT 8
+PINATTR PinName G
+PINATTR SpiceOrder 2
+PIN 16 64 TOP 8
+PINATTR PinName S
+PINATTR SpiceOrder 3
+PIN 4 14 NONE 8
+PINATTR PinName VCH
+PINATTR SpiceOrder 4
+PIN 4 -14 NONE 8
+PINATTR PinName VCL
+PINATTR SpiceOrder 5
