@@ -3543,7 +3543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "C:\\Users\\User\\Documents\\GitHub\\EE_348_StudentFiles_FinalProj\\JFE150\\jfe150.lib"
+		(property "Sim.Library" "/Users/phoebemeister/Desktop/EE_348_Final_Project_Main/FinalDesignProject348/JFE150/jfe150.lib"
 			(at 200.66 69.85 0)
 			(effects
 				(font
@@ -3570,7 +3570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "5=D 3=G 4=S 1=VCH 2=VCL"
+		(property "Sim.Pins" "1=VCH 2=VCL 3=G 4=S 5=D"
 			(at 200.66 69.85 0)
 			(effects
 				(font
@@ -3743,7 +3743,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:VSIN")
-		(at 248.92 69.85 270)
+		(at 248.92 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3751,7 +3751,7 @@
 		(dnp no)
 		(uuid "4af89ba7-158c-4e9e-a12d-7b362ab5bb08")
 		(property "Reference" "Vgate2"
-			(at 243.586 67.818 90)
+			(at 254.254 71.882 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3760,7 +3760,7 @@
 			)
 		)
 		(property "Value" "VSIN"
-			(at 243.586 65.278 90)
+			(at 254.254 74.422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3804,8 +3804,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "dc=0.1 ampl=0.1 f=1k ac=1"
-			(at 261.874 62.23 90)
+		(property "Sim.Params" "dc=0.1 ampl=-0.1 f=1k ac=-1"
+			(at 235.458 82.804 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5090,7 +5090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "C:\\Users\\User\\Documents\\GitHub\\EE_348_StudentFiles_FinalProj\\JFE150\\jfe150.lib"
+		(property "Sim.Library" "/Users/phoebemeister/Desktop/EE_348_Final_Project_Main/FinalDesignProject348/JFE150/jfe150.lib"
 			(at 168.91 69.85 0)
 			(effects
 				(font
@@ -5117,7 +5117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "5=D 3=G 4=S 1=VCH 2=VCL"
+		(property "Sim.Pins" "1=VCH 2=VCL 3=G 4=S 5=D"
 			(at 168.91 69.85 0)
 			(effects
 				(font
