@@ -1755,6 +1755,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 76.2) (xy 62.23 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab40efc9-5da1-44b7-9db8-88bd497e98e3")
+	)
+	(wire
+		(pts
 			(xy 151.13 69.85) (xy 157.48 69.85)
 		)
 		(stroke
@@ -3156,7 +3166,29 @@
 		)
 		(uuid "8ab7aeff-dac6-4e5f-9f73-4b5b1d4fe6e0")
 	)
-	(global_label "Vgate"
+	(global_label "Vgate2"
+		(shape input)
+		(at 68.58 81.28 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c011638-0700-468a-9c55-a1e87ccf006d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.58 90.6756 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vgate1"
 		(shape input)
 		(at 128.27 74.93 180)
 		(fields_autoplaced yes)
@@ -3168,7 +3200,29 @@
 		)
 		(uuid "35bbdc60-f0db-4615-8b24-07dec606051c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.0839 74.93 0)
+			(at 118.8744 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vgate1"
+		(shape input)
+		(at 40.64 81.28 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f6a0f0a-9a66-4869-a1ba-d24aa94afdd3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 90.6756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3222,28 +3276,6 @@
 			)
 		)
 	)
-	(global_label "Vgate"
-		(shape input)
-		(at 63.5 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c44ad5a0-d577-4dca-92a8-ef81801c63f4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.6861 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Vgate2"
 		(shape input)
 		(at 243.84 74.93 0)
@@ -3285,6 +3317,73 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04c8b88e-a82f-452e-bfe1-25e547ff68f5")
+		(property "Reference" "#PWR07"
+			(at 29.21 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f21c6cf6-c83e-42df-88b1-f6b7db9f8e02")
+		)
+		(instances
+			(project ""
+				(path "/123c289e-fc9b-4cb4-9f74-698e516a530a"
+					(reference "#PWR07")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4564,7 +4663,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 64.77 76.2 0)
+		(at 68.58 76.2 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -4573,7 +4672,7 @@
 		(fields_autoplaced yes)
 		(uuid "984cfb27-6fd3-4e9d-b77a-17a329164e46")
 		(property "Reference" "J2"
-			(at 68.58 75.2231 0)
+			(at 72.39 75.2231 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4582,7 +4681,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 68.58 77.7631 0)
+			(at 72.39 77.7631 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4591,7 +4690,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
-			(at 64.77 76.2 0)
+			(at 68.58 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4600,7 +4699,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 76.2 0)
+			(at 68.58 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4609,7 +4708,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 64.77 76.2 0)
+			(at 68.58 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4627,6 +4726,73 @@
 			(project "348_amp_student_template"
 				(path "/123c289e-fc9b-4cb4-9f74-698e516a530a"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a19cce0d-5519-487c-b38d-35e32f57cb37")
+		(property "Reference" "#PWR05"
+			(at 69.85 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f004487-6401-4bd1-a6d7-617994ad7a12")
+		)
+		(instances
+			(project ""
+				(path "/123c289e-fc9b-4cb4-9f74-698e516a530a"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4901,6 +5067,73 @@
 			(project "AMP_PCB"
 				(path "/123c289e-fc9b-4cb4-9f74-698e516a530a"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e470839e-297f-4c5a-8678-e7cafb620462")
+		(property "Reference" "#PWR09"
+			(at 55.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "023d4ec8-9f2a-47b7-9fb3-c16a28e64ee3")
+		)
+		(instances
+			(project ""
+				(path "/123c289e-fc9b-4cb4-9f74-698e516a530a"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
