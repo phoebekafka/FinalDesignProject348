@@ -1,5 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "JFE Main")(type "KiCad")(uri "/Users/phoebemeister/Desktop/EE_348_Final_Project_Main/FinalDesignProject348/348_symbols/jfe_easier.kicad_sym")(options "")(descr ""))
-  (lib (name "JFE Main2")(type "KiCad")(uri "/Users/phoebemeister/Desktop/EE_348_Final_Project_Main/FinalDesignProject348/348_symbols/JFE150DCKR.kicad_sym")(options "")(descr ""))
+  (lib (name "JFE Main")(type "KiCad")(uri "C:/Users/User/Documents/GitHub/FinalDesignProject348/348_symbols/jfe_easier.kicad_sym")(options "")(descr ""))
+  (lib (name "JFE Main2")(type "KiCad")(uri "C:/Users/User/Documents/GitHub/FinalDesignProject348/348_symbols/JFE150DCKR.kicad_sym")(options "")(descr ""))
 )

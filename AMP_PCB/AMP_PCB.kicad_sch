@@ -3929,7 +3929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "/Users/phoebemeister/Desktop/EE_348_Final_Project_Main/FinalDesignProject348/JFE150/jfe150.lib"
+		(property "Sim.Library" "C:\\Users\\User\\Documents\\GitHub\\FinalDesignProject348\\JFE150\\jfe150.lib"
 			(at 200.66 69.85 0)
 			(effects
 				(font
@@ -4895,7 +4895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "/Users/phoebemeister/Desktop/EE_348_Final_Project_Main/FinalDesignProject348/JFE150/jfe150.lib"
+		(property "Sim.Library" "C:\\Users\\User\\Documents\\GitHub\\FinalDesignProject348\\JFE150\\jfe150.lib"
 			(at 168.91 69.85 0)
 			(effects
 				(font
