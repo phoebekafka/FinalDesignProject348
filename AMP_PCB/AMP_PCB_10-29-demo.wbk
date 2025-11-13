@@ -60,8 +60,8 @@
           "color": "rgb(228, 26, 28)",
           "cursor1": {
             "position": 3.0,
-            "x_format": "3~Hz",
-            "y_format": "3~dB"
+            "x_format": "3~V",
+            "y_format": "3~V"
           },
           "cursorD": {
             "x_format": "3~s",
@@ -91,6 +91,11 @@
       "measurements": [],
       "showGrid": true,
       "traces": [
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(/Vout1) (gain)",
+          "trace_type": 521
+        },
         {
           "color": "rgb(228, 26, 28)",
           "signal": "V(/Vout2) (gain)",
